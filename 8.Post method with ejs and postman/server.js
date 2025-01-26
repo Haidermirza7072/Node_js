@@ -13,7 +13,7 @@ app.post("/users", (req, res) => {
 });
 
 
-app.get("/user", (req, res) => {
+app.get("/users", (req, res) => {
     res.json(arr);
 });
 
@@ -23,20 +23,20 @@ app.get("/", (req, res) => {
 });
 
  
-app.delete("/user/:index", (req, res) => {
-    console.log(req.params.index);
-    const{index} = req.params;
-    console.log(index);
-    arr.splice(index, 1);
-    res.json("Data deleted");
-})
+// app.delete("/user/:index", (req, res) => {
+//     console.log(req.params.index);
+//     const{index} = req.params;
+//     console.log(index);
+//     arr.splice(index, 1);
+//     res.json("Data deleted");
+// })
 
-app.put('/users',(req,res) =>{
-    console.log(req.querry.index);
-    const {index} = req.query
-    arr.splice(index,1,req.body)
-    res.json("updated ")
-})
+// app.put('/users',(req,res) =>{
+//     console.log(req.querry.index);
+//     const {index} = req.query
+//     arr.splice(index,1,req.body)
+//     res.json("updated ")
+// })
 
 app.listen(5000, () => {
     console.log(`Server is running at http://localhost:5000`);

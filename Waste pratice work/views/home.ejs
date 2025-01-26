@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Art Of Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg mt-2" style="background-color: #b2d8d8; color: #8b0000;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="/service">Service</a>
+          <a class="nav-link" href="/contact-us">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <h1 class="text-center mt-2" style="color: burlywood;">Welcome to the Home page</h1>
+  <!-- banner -->
+  <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+        src="images/img1.jpg"
+          class="d-block w-100 mx-auto" style="height: 400px;" alt="First slide" />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="images/img2.webp"
+          class="d-block w-100 mx-auto" style="height: 400px;" alt="Second slide" />
+      </div>
+      <div class="carousel-item">
+        <img
+        src="images/img3.jpg"
+          class="d-block w-100 mx-auto" style="height: 400px;" alt="Third slide" />
+      </div>
+    </div>
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <!-- card -->
+    <div class="container" style="margin-left:30px; color: brown; height: 550px;">
+    <p style="margin-left: 380px; margin-top: 30px;">Some information about the Famous painting</p>
+    <div class="container d-flex me-4 mt-0" style="background-color: #b2d8d8;">
+      <div class="card mt-5" style="width: 14rem; height: 100px; margin-right: 20px;">
+        <img
+        src="images/card1.webp"
+          class="card-img-top" alt="card-1" style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">The Storm on the Sea of Galilee</h5>
+          <p class="card-text">This painting is Rembrandt’s only seascape, and it’s famously known for being stolen in
+            1990 and never recovered. </p>
+        </div>
+      </div>
+      <div class="card mt-5" style="width: 14rem; height: 100px; margin-right: 20px;">
+        <img
+        src="images/card2.webp"
+          class="card-img-top" alt="card-1" style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">A Bar at the Folies-Bergère</h5>
+          <p class="card-text">This painting is celebrated for its complex play of gaze, reflection, and the ambiguities
+            of modern urban life.
+          </p>
+        </div>
+      </div>
+      <div class="card mt-5" style="width: 14rem; height: 100px; margin-right: 20px;">
+        <img
+        src="images/card3.webp"
+          class="card-img-top" alt="card-1" style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">Wanderer above the Sea of Fog</h5>
+          <p class="card-text">An iconic painting of the Romantic period, it encapsulates the feeling of the sublime,
+            facing the infinite and the unknown.</p>
+        </div>
+      </div>
+      <div class="card mt-5" style="width: 14rem; height: 100px; margin-right: 20px;">
+        <img src="images/card4.webp"
+          class="card-img-top" alt="card-1" style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">Las Meninas </h5>
+          <p class="card-text">Velázquez’s complex and mysterious composition is a masterclass in perspective and a
+            commentary on the act of painting itself.</p>
+        </div>
+      </div>
+      <div class="card mt-5" style="width: 14rem; height: 100px; margin-right: 20px;">
+        <img
+        src="images/card5.webp"
+          class="card-img-top" alt="card-1" style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">The Battle of Alexander</h5>
+          <p class="card-text">This monumental work captures a legendary battle between Alexander the Great and Darius
+            III of Persia.(Albrecht Altdorfer).</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- form -->
+  <div class="col-lg-6 container shadow">
+    <p class="mt-4" style="margin-left: 180px;">Entry Form & Artist Constract</p>
+    <form>
+      <div class="mt-4">
+        <input type="text" placeholder="Enter your Artist name here!" class="form-control" />
+      </div>
+      <div class="mt-4">
+        <input type="email" placeholder="Enter your Mailing Artist " class="form-control" />
+      </div>
+      <div class="mt-4">
+        <input type="text" placeholder="Enter your Title Artwork here!" class="form-control" />
+      </div>
+      <div class="mt-4">
+        <input type="text" placeholder="Enter your Medium or Materials Used here!" class="form-control" />
+      </div>
+      <button class="btn btn-outline-success mt-2">Submit</button>
+    </form>
+  </div>
+
+<!-- footer -->
+<footer class="mt-5" style="background-color: #5f9ea0 ; color: black; padding: 10px;">
+  <div class="container text-center">
+    Copyright ©️ 2025 iCommerce Solutions. All rights reserved.
+  </div>
+</footer>
+
+
+
+</body>
+
+
+</html>
